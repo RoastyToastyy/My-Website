@@ -1,0 +1,62 @@
+Commands used during the project:
+
+1. git init
+Initialized a new Git repository in the project folder which was titled "fatimas-proj"
+
+2. git branch -M main
+Renamed the current branch to main
+
+3. git status
+This command displays the current repository status and modified or untracked files
+
+4. git add .
+Added and got the files staged with all changes in the project for committing
+
+5. git add index.html
+Staged about.html file for committing
+
+6. git add about.html
+Staged about.html file for committing
+
+7. git commit -m "First commit setup"
+First commit successfully added with the message "First commit setup"
+
+8. git commit -m "Updated homepage heading in index.html""
+Second commit for updated homepage
+
+9. git branch feature
+Created a new branch named "feature"
+
+10. git switch feature
+Switched the working branch from main to feature
+
+11. git switch main
+Switched the working branch back to main
+
+12. git commit -m "New Motivation section added to about.html"
+Recorded changes made to about.html on the feature branch
+
+13. git merge feature 
+Merged the feature branch into main 
+
+14. git log
+Displayed the commit history, branches, and merge activity
+
+15. git commit -m "Added gitignore configuration"
+Recorded the .gitignore configuration in the repository
+
+16. git revert HEAD
+Undid the changes from the latest commit of addition of the .gitignore file by creating a new revert commit, which removed the
+file
+
+17. git remote add origin https://github.com/RoastyToastyy/My-Website
+Connected the local repository to the GitHub remote repository
+
+18. git remote -v
+Displayed the configured remote repository URLs
+
+19. git push -u origin main
+Uploaded the main branch to GitHub
+
+20. git push -u origin feature
+Uploaded the feature branch to GitHub
